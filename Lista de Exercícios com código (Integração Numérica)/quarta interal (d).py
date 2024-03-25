@@ -1,7 +1,5 @@
-import math
-
 def f(x):
-    return 1 / 1 + x
+    return 1 / (1 + x)
 
 def sla(a, b, n):
     h = (b - a) / n
@@ -21,13 +19,12 @@ def m(a, b, epsilon):
         i = sla(a, b, n)
     return n
 
-
 a = 0
 b = 0.6
 epsilon = 1e-5
 
 min = m(a, b, epsilon)
-print("intervalos quant: ", min)
+print( epsilon, min)
 
 integral = sla(a, b, min)
 print(integral)
