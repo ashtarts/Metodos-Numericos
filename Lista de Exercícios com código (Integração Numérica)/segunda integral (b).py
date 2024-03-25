@@ -24,6 +24,15 @@ def m(a, b, epsilon):
 a = 1
 b = 4
 e = 1e-5
+n_4 = 4
+n_6 = 6
+
+i4 = t(a, b, n_4)
+i6 = t(a, b, n_6)
+
+print("4", i4)
+print("6", i6)
+
 min = m(a, b, e)
 print(min)
 
