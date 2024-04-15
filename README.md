@@ -1,7 +1,5 @@
  <h1 align="center"> Atividades da disciplina de Metodos Numéricos 3 - 2024.1 </h1>
 
-- Atividades: 1, 2;
-
 ____________________________________________________
 ℂ𝕠𝕟𝕥𝕒𝕔𝕥:
 
